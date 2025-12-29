@@ -1,0 +1,36 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 360px;
+    margin: 0 auto;
+
+    label {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        line-height: 24px;
+
+        input {
+            height: 40px;
+            border: 1px solid #2e2f42;
+            border-radius: 4px;
+        }
+    }
+}
+.button {
+    margin-top: 8px;
+    padding: 8px 16px;
+    width: max-content;
+    border-radius: 8px;
+    height: 40px;
+    background-color: #4e75ff;
+    color: #ffff;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.04px;
+    cursor: pointer;
+    &:hover {background-color: #6C8CFF;
+    }
+}

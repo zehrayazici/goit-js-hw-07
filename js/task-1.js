@@ -8,6 +8,4 @@ categories.forEach(category => {
 
   console.log(`Category: ${title}`);
   console.log(`Elements: ${itemsCount}`);
-  console.log('-------------------------'); 
 });
-
